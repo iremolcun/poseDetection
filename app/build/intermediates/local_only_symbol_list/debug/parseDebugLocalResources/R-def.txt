@@ -1,0 +1,27 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable baseline_camera_alt_24
+drawable baseline_image_24
+drawable bg
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable logo
+id cameraCard
+id cardImg
+id galleryCard
+id imageView
+id imageView2
+id imageView3
+id linearLayout
+id main
+id resultTV
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.PoseWithImages
+style Theme.PoseWithImages
+xml backup_rules
+xml data_extraction_rules
