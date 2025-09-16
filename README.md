@@ -4,7 +4,9 @@
 PoseDetection is an Android application that uses **Google ML Kit Pose Detection** to track human body movements in real time.  
 It analyzes exercise form, counts repetitions, and provides visual feedback to help users perform workouts correctly.
 
+
 ---
+
 
 ## Features
 - Real-time pose detection with ML Kit  
@@ -14,7 +16,9 @@ It analyzes exercise form, counts repetitions, and provides visual feedback to h
 - Form feedback – displays tips if movements are incorrect  
 - Runs fully on-device – no internet connection required
 
+
 ---
+
 
 ## Project Structure
 poseDetection/
@@ -27,38 +31,45 @@ poseDetection/
 ├── res/ # Layouts, drawables, strings
 └── AndroidManifest.xml # Permissions and app config
 
-yaml
-Kodu kopyala
 
 ---
+
 
 ## Installation
 1. Clone the repository:
    ```bash
    git clone https://github.com/iremolcun/poseDetection.git
-Open the project in Android Studio.
+2. Open the project in Android Studio.
 
-Run a Gradle Sync.
+3. Run a Gradle Sync.
 
-Connect a physical Android device (recommended) or start an emulator.
+4. Connect a physical Android device (recommended) or start an emulator.
 
-Build and run the app.
+5. Build and run the app.
 
-Required permission:
+6. Required permission:
 
-android.permission.CAMERA
+   android.permission.CAMERA
+
+---
 
 Usage
-Launch the app.
+1. Launch the app.
 
-Choose an exercise from the menu (e.g., Push Ups).
+2. Choose an exercise from the menu (e.g., Push Ups).
 
-Position yourself in front of the camera.
+3. Position yourself in front of the camera.
 
-The app will draw skeleton keypoints, count repetitions, and provide feedback.
+4. The app will draw skeleton keypoints, count repetitions, and provide feedback.
+
+---
 
 Screenshots
 <p align="center"> <img src="assets/menu.jpg" alt="Menu" width="240"/> <img src="assets/pushup.jpg" alt="Push Ups" width="240"/> <img src="assets/squat.jpg" alt="Squats" width="240"/> </p>
+
+
+---
+
 
 Technologies
 Kotlin + Java (Android)
