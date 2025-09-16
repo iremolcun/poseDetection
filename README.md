@@ -72,6 +72,7 @@ Screenshots
 
 
 Technologies
+
 Kotlin + Java (Android)
 
 Google ML Kit – Pose Detection API
